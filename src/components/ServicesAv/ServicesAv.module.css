@@ -4,7 +4,6 @@
   max-width: 100%;
   text-align: center;
   padding-top: 1em;
-  border-top: 2px solid #228b22;
 }
 
 .services h1 {
@@ -16,6 +15,14 @@
   max-height: 164px;
   border-radius: 50%;
   text-align: center;
+}
+
+.imagestozoom {
+  transition: transform 0.3s; /* Animation */
+}
+
+.imagestozoom:hover {
+  transform: scale(1.2);
 }
 
 .servicesContainer {
