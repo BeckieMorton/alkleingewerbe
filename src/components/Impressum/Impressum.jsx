@@ -55,7 +55,7 @@ export const Impressum = () => {
         wir derartige Inhalte umgehend entfernen.
       </p>
       <h2>Quellenangaben für verwendete Bilder und Grafiken</h2>
-      <p>Shutterstock, Freepik, Midjourney AI, Font Awesome, Icomoon </p>
+      <p>Pexels, 8icons </p>
       <h2>Quelle:</h2>
       <p>e-recht24.de</p>
     </div>

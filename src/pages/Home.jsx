@@ -7,7 +7,6 @@ import { About } from "../components/About/About";
 import { ServicesAv } from "../components/ServicesAv/ServicesAv";
 
 export const Home = () => {
-  // Rendering the component's JSX
   return (
     <div>
       <Header />

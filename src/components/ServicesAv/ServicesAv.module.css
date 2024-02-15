@@ -1,0 +1,41 @@
+.services {
+  background-color: #ff8c00;
+  color: white;
+  max-width: 100%;
+  text-align: center;
+  padding-top: 1em;
+  border-top: 2px solid #228b22;
+}
+
+.services h1 {
+  font-weight: 600;
+}
+
+.services img {
+  max-width: 164px;
+  max-height: 164px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.servicesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 6em;
+  padding: 0 10rem;
+}
+
+.servicesBox {
+  flex-basis: calc(25% - 10px); /* 25% minus the gap (10px) between items */
+  margin-bottom: 10px; /* Adjust as needed */
+  text-align: center;
+}
+
+.servicesBox:first-child {
+  flex-basis: 100%;
+}
+
+.servicesBox {
+  text-align: center;
+}
