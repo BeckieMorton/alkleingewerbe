@@ -1,4 +1,5 @@
 import styles from "./About.module.css";
+import { TypeAnimation } from "react-type-animation";
 
 export const About = () => {
   return (

@@ -1,5 +1,6 @@
-import styles from "./Footer.module.css";
 import { Link } from "react-router-dom";
+
+import styles from "./Footer.module.css";
 
 export const Footer = () => {
   return (
@@ -14,6 +15,7 @@ export const Footer = () => {
       </div>
       <div className={styles.footerBox}>
         <h2>Legal Stuff</h2>
+
         <Link to="/LegalStuff">
           <p>Impressum</p>
         </Link>

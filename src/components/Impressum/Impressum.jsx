@@ -1,8 +1,14 @@
-import React from "react";
+import { useEffect } from "react";
+
+import styles from "./Impressum.module.css";
 
 export const Impressum = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
-    <div>
+    <div className={styles.container}>
       <h1>Impressum der Website der A.Ludewig Dienstleistungen von A-Z</h1>
       <h2>Angaben gemäß § 5 TMG:</h2>
       <p>Aline Ludewig</p>

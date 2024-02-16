@@ -7,7 +7,12 @@ export const Header = () => {
     <div>
       <nav>
         <div className={styles.headerContainer}>
-          <img src="/assets/logo.png" alt="Kleingewerbe logo" />
+          <NavLink to="/">
+            <img
+              src="/assets/logo.png"
+              alt="A Ludewig Dienstleistungen von A-Z logo"
+            />
+          </NavLink>
         </div>
       </nav>
     </div>
