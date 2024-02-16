@@ -6,7 +6,7 @@ export const Copyright = () => {
       className={styles.container}
       style={{ color: "black", fontSize: "10px" }}
     >
-      © 2024 A. Ludewig Dienstleistungen von A-Z. Alle Rechte vorbehalten
+      <p>© 2024 A. Ludewig Dienstleistungen von A-Z. Alle Rechte vorbehalten</p>
     </div>
   );
 };

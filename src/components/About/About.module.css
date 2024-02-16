@@ -1,38 +1,100 @@
-.services {
-  background-color: #228b22;
-  color: white;
-  max-width: 100%;
-  text-align: center;
-  padding-top: 1em;
-  border-bottom: 2px solid #ff8c00;
+/* Media query for mobile */
+@media screen and (max-width: 666px) {
+  .about {
+    background-color: #228b22;
+    color: white;
+    max-width: 100%;
+    text-align: center;
+    padding-top: 1em;
+    border-bottom: 2px solid #ff8c00;
+  }
+
+  .about h1 {
+    font-weight: 600;
+  }
+
+  .aboutContainer {
+    align-items: center;
+  }
+
+  .aboutText {
+    padding: 0 0.5em 2em 0.5em;
+  }
+
+  .aboutContainer {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    padding: 2em 3em;
+  }
 }
 
-.services h1 {
-  font-weight: 600;
+/* Media query for tablet */
+@media screen and (min-width: 667px) and (max-width: 1023px) {
+  .about {
+    background-color: #228b22;
+    color: white;
+    max-width: 100%;
+    text-align: center;
+    padding-top: 1em;
+    border-bottom: 2px solid #ff8c00;
+  }
+
+  .about h1 {
+    font-weight: 600;
+  }
+
+  .aboutContainer {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    padding: 2em 6em;
+  }
+
+  .aboutBox {
+    text-align: center;
+  }
+
+  .aboutText {
+    padding: 0 0.5em 2em 0.5em;
+  }
 }
 
-.services img {
-  max-width: 164px;
-  max-height: 164px;
-  border-radius: 50%;
-  text-align: center;
-}
+/* media query for desktop */
+@media screen and (min-width: 1024px) {
+  .about {
+    background-color: #228b22;
+    color: white;
+    max-width: 100%;
+    text-align: center;
+    padding-top: 1em;
+    border-bottom: 2px solid #ff8c00;
+  }
 
-.servicesContainer {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  align-items: center;
-  padding: 0 6em;
-}
+  .about h1 {
+    font-weight: 600;
+    padding-bottom: 1em;
+  }
 
-.servicesBox:first-child {
-  grid-column: span 4;
-}
+  .about img {
+    max-width: 164px;
+    max-height: 164px;
+    border-radius: 50%;
+    text-align: center;
+  }
 
-.servicesBox {
-  text-align: center;
-}
+  .aboutContainer {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    padding: 2em 6em;
+  }
 
-.aboutmeText {
-  padding: 0 14em 2em 14em;
+  .aboutBox {
+    text-align: center;
+  }
+
+  .aboutText {
+    padding: 0 10em 2em 10em;
+  }
 }

@@ -15,7 +15,6 @@ export const Footer = () => {
       </div>
       <div className={styles.footerBox}>
         <h2>Legal Stuff</h2>
-
         <Link to="/LegalStuff">
           <p>Impressum</p>
         </Link>
