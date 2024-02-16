@@ -1,9 +1,25 @@
-.headerContainer {
-  display: block;
-  text-align: center;
-  padding-top: 3em;
+/* Media query for mobile */
+@media screen and (max-width: 666px) {
+  .headerContainer img {
+    max-width: 95%;
+  }
+
+  .headerContainer {
+    display: block;
+    text-align: center;
+    padding: 2em 0;
+  }
 }
 
-.headerContainer img {
-  max-width: 50%;
+/* media query for desktop */
+@media screen and (min-width: 1024px) {
+  .headerContainer {
+    display: block;
+    text-align: center;
+    padding-top: 3em;
+  }
+
+  .headerContainer img {
+    max-width: 50%;
+  }
 }
