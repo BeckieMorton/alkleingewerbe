@@ -9,12 +9,14 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #228b22;
+  overflow-x: hidden;
 }
 
 body {
   margin: 0;
   display: flex;
   place-items: center;
+  overflow-x: hidden;
 }
 
 /* Media query for mobile */

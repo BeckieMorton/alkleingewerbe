@@ -1,7 +1,46 @@
-.container {
-  background-color: #ff8c00;
-  color: white;
-  max-width: 100%;
-  text-align: center;
-  padding: 2em 8em;
+/* Media query for mobile */
+@media screen and (max-width: 666px) {
+  .container {
+    background-color: #ff8c00;
+    color: white;
+    max-width: 100%;
+    text-align: center;
+    padding: 2em 1em;
+  }
+
+  .container h1 {
+    font-size: 35px;
+  }
+
+  .container h2 {
+    font-size: 24px;
+  }
+
+  .container p {
+    font-size: 18px;
+  }
+
+  .homeLink {
+    display: inline;
+    border: 1px solid green;
+    padding: 0.5em 2em;
+    border-radius: 30px;
+    margin-top: 3em;
+    text-decoration-line: none;
+  }
+}
+
+/* Media query for tablet */
+@media screen and (min-width: 667px) and (max-width: 1023px) {
+}
+
+/* media query for desktop */
+@media screen and (min-width: 1024px) {
+  .container {
+    background-color: #ff8c00;
+    color: white;
+    max-width: 100%;
+    text-align: center;
+    padding: 2em 8em;
+  }
 }

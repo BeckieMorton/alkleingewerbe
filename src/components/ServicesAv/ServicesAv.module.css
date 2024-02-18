@@ -3,19 +3,23 @@
   .services {
     background-color: #ff8c00;
     color: white;
-    max-width: 100%;
     text-align: center;
-    padding: 4em;
+    padding: 0.5em;
   }
 
-  .services h1 {
+  .servicesContainer h1 {
     font-weight: 600;
     padding-bottom: 1em;
+    font-size: 35px;
+  }
+
+  .servicesContainer p {
+    font-size: 18px;
   }
 
   .services img {
-    max-width: 164px;
-    max-height: 164px;
+    max-width: 124px;
+    max-height: 124px;
     border-radius: 50%;
     text-align: center;
   }
@@ -23,7 +27,6 @@
   .servicesContainer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding: 0 2rem;
   }
 
   .servicesContainer > :first-child {

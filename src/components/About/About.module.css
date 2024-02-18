@@ -3,7 +3,6 @@
   .about {
     background-color: #228b22;
     color: white;
-    max-width: 100%;
     text-align: center;
     padding-top: 1em;
     border-bottom: 2px solid #ff8c00;
@@ -11,14 +10,15 @@
 
   .about h1 {
     font-weight: 600;
+    font-size: 35px;
+  }
+
+  .about p {
+    font-size: 18px;
   }
 
   .aboutContainer {
     align-items: center;
-  }
-
-  .aboutText {
-    padding: 0 0.5em 2em 0.5em;
   }
 
   .aboutContainer {

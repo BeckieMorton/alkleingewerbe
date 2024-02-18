@@ -66,21 +66,21 @@ export const ServicesAv = () => {
           <p>
             <img
               className={styles.imagestozoom}
-              src="./assets/mowing.jpg"
-              alt="postal services"
-            />
-          </p>
-          <p>Gartenhilsarbeiten wie z. B. Rasen mähen</p>
-        </div>
-        <div className={styles.servicesBox}>
-          <p>
-            <img
-              className={styles.imagestozoom}
               src="./assets/gardening.jpg"
               alt="postal services"
             />
           </p>
           <p>Garten entrümpeln</p>
+        </div>{" "}
+        <div className={styles.servicesBox}>
+          <p>
+            <img
+              className={styles.imagestozoom}
+              src="./assets/mowing.jpg"
+              alt="postal services"
+            />
+          </p>
+          <p>Gartenhilsarbeiten wie z. B. Rasen mähen</p>
         </div>
       </div>
     </div>

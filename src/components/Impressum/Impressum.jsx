@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 import styles from "./Impressum.module.css";
 
@@ -17,8 +18,6 @@ export const Impressum = () => {
       <h2>Kontakt:</h2>
       <p>Telefon: 01525 8497999</p>
       <p> E-Mail: aline-ludewig@gmx.de </p>
-      <h2> Steuernummer:</h2>
-      <p>**waiting for this**</p>
       <h2>USt-IdNr.:</h2>
       <p>DE323017110</p>
       <h2>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV: </h2>
@@ -64,6 +63,9 @@ export const Impressum = () => {
       <p>Pexels, 8icons </p>
       <h2>Quelle:</h2>
       <p>e-recht24.de</p>
+      <Link to="/">
+        <p className={styles.homeLink}>Zurück zur Startseite</p>
+      </Link>
     </div>
   );
 };

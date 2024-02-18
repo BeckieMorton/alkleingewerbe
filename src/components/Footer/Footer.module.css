@@ -7,12 +7,12 @@
     padding: 2em 0.5em;
   }
 
-  .footerBox p {
-    font-size: 32px;
+  .footerBox h2 {
+    font-size: 34px;
   }
 
-  .footerBox h2 {
-    font-size: 52px;
+  .footerBox p {
+    font-size: 20px;
   }
 
   a {
@@ -55,7 +55,6 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     text-align: center;
-
     padding: 3em 1em;
   }
 
