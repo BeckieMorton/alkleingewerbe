@@ -11,8 +11,8 @@ export const Home = () => {
     <div>
       <Header />
       <LottieComponent />
-      <ServicesAv />
       <About />
+      <ServicesAv />
       <Footer />
       <Copyright />
     </div>

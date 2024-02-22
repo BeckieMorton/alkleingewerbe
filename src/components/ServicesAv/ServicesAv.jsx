@@ -7,9 +7,7 @@ export const ServicesAv = () => {
         <div className={styles.servicesBox}>
           <h1>
             <span style={{ fontWeight: "300" }}>Meine </span>
-            <span style={{ textDecoration: "underline" }}>
-              Dienstleistungen
-            </span>
+            Dienstleistungen
           </h1>
         </div>
         <div className={styles.servicesBox}>
@@ -46,11 +44,21 @@ export const ServicesAv = () => {
           <p>
             <img
               className={styles.imagestozoom}
+              src="./assets/grocery.jpg"
+              alt="haushaltshilfe"
+            />
+          </p>
+          <p>Haushaltshilfe</p>
+        </div>
+        <div className={styles.servicesBox}>
+          <p>
+            <img
+              className={styles.imagestozoom}
               src="./assets/cellar.jpg"
               alt="postal services"
             />
           </p>
-          <p>Haushaltshilfe und Entrümpelung von Kellern</p>
+          <p>Entrümpelung von Kellern</p>
         </div>
         <div className={styles.servicesBox}>
           <p>
@@ -80,7 +88,7 @@ export const ServicesAv = () => {
               alt="postal services"
             />
           </p>
-          <p>Gartenhilsarbeiten wie z. B. Rasen mähen</p>
+          <p>Gartenhilfsarbeiten wie z. B. Rasen mähen</p>
         </div>
       </div>
     </div>

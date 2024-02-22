@@ -11,6 +11,7 @@
     font-weight: 600;
     padding-bottom: 1em;
     font-size: 35px;
+    text-decoration: underline;
   }
 
   .servicesContainer p {
@@ -61,6 +62,7 @@
   .services h1 {
     font-weight: 600;
     padding-bottom: 1em;
+    text-decoration: underline;
   }
 
   .services img {
@@ -109,6 +111,7 @@
   .services h1 {
     font-weight: 600;
     padding-bottom: 1em;
+    text-decoration: underline;
   }
 
   .services img {
