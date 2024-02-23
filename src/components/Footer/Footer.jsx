@@ -7,11 +7,11 @@ export const Footer = () => {
     <div className={styles.footerContainer}>
       <div className={styles.footerBox}>
         <h2>E-mail</h2>
-        <p>rsdfbhsr@sdgd.com</p>
+        <p>aline-ludewig@gmx.de </p>
       </div>
       <div className={styles.footerBox}>
         <h2>Telefon</h2>
-        <p>+49 4598 343</p>
+        <p>01525 8497999</p>
       </div>
       <div className={styles.footerBox}>
         <h2>Impressum</h2>

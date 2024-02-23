@@ -11,7 +11,7 @@ export const About = () => {
           </h1>
         </div>
         <div className={styles.aboutBox}>
-          <p>
+          <p className={styles.profilephoto}>
             <img src="./assets/aline.jpg" />
           </p>
         </div>
@@ -26,7 +26,15 @@ export const About = () => {
               mich keine unlösbaren Aufgaben. Ich bin mir sicher, dass wir
               gemeinsam die perfekte Lösung für Ihr Anliegen finden werden.
             </p>
-            <p>Auf geht´s - Bee ready ( picture of the bee from my logo)"</p>
+
+            <div className={styles.centerBee}>
+              Auf geht´s - Bee ready
+              <img
+                className={styles.bee}
+                src="./assets/bee-white.png"
+                alt="bee logo"
+              />
+            </div>
           </div>
         </div>
       </div>

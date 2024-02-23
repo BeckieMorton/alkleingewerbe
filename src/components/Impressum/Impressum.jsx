@@ -18,11 +18,11 @@ export const Impressum = () => {
       <h2>Kontakt:</h2>
       <p>Telefon: 01525 8497999</p>
       <p> E-Mail: aline-ludewig@gmx.de </p>
-      <h2>USt-IdNr.:</h2>
-      <p>DE323017110</p>
+      <h2>Steuernummer:</h2>
+      <p>203/246/12743</p>
       <h2>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV: </h2>
       <p>
-        Pixlmania GbR Fred Harzbecker und Felix Behr Baudissinstr. 17 01139
+        A. Ludewig Dienstleistungen von A-Z, Aline Ludewig, Reuningstr. 5, 01169
         Dresden
       </p>
       <h2>Streitschlichtung</h2>
@@ -63,6 +63,7 @@ export const Impressum = () => {
       <p>Pexels, 8icons </p>
       <h2>Quelle:</h2>
       <p>e-recht24.de</p>
+      <p>&nbsp;</p>
       <Link to="/">
         <p className={styles.homeLink}>Zurück zur Startseite</p>
       </Link>

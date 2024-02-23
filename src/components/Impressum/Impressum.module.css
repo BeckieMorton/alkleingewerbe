@@ -20,18 +20,20 @@
     font-size: 18px;
   }
 
-  .homeLink {
-    display: inline;
-    border: 1px solid green;
-    padding: 0.5em 2em;
-    border-radius: 30px;
-    margin-top: 3em;
-    text-decoration-line: none;
+  .container a:hover {
+    color: white;
   }
 }
 
 /* Media query for tablet */
 @media screen and (min-width: 667px) and (max-width: 1023px) {
+  .container {
+    background-color: #ff8c00;
+    color: white;
+    max-width: 100%;
+    text-align: center;
+    padding: 2em 8em;
+  }
 }
 
 /* media query for desktop */

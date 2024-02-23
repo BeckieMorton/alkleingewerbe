@@ -28,7 +28,7 @@
     padding: 2em 3em;
   }
 
-  .about img {
+  .profilephoto img {
     max-width: 164px;
     max-height: 164px;
     border-radius: 50%;
@@ -37,6 +37,22 @@
 
   .aboutText {
     text-align: left;
+  }
+
+  .bee {
+    max-width: 30px;
+    max-height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    gap: 3px;
+    display: flex;
+    margin: -0.4em 0.6em;
+  }
+
+  .centerBee {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 2em;
   }
 }
 
@@ -59,10 +75,10 @@
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     align-items: center;
-    padding: 2em 6em;
+    padding: 2em 3em;
   }
 
-  .about img {
+  .profilephoto img {
     max-width: 164px;
     max-height: 164px;
     border-radius: 50%;
@@ -71,6 +87,25 @@
 
   .aboutText {
     text-align: left;
+  }
+
+  .bee {
+    max-width: 45px;
+    max-height: 45px;
+    border-radius: 50%;
+    text-align: center;
+    gap: 7px;
+    font-size: 20px;
+    width: 164px;
+    height: 48px;
+    display: flex;
+    margin: -0.4em 0.6em;
+  }
+
+  .centerBee {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 2em;
   }
 }
 
@@ -90,7 +125,7 @@
     padding-bottom: 1em;
   }
 
-  .about img {
+  .profilephoto img {
     max-width: 164px;
     max-height: 164px;
     border-radius: 50%;
@@ -110,5 +145,24 @@
 
   .aboutText {
     text-align: left;
+  }
+
+  .bee {
+    max-width: 45px;
+    max-height: 45px;
+    border-radius: 50%;
+    text-align: center;
+    gap: 7px;
+    font-size: 20px;
+    width: 164px;
+    height: 48px;
+    display: flex;
+    margin: -0.4em 0.6em;
+  }
+
+  .centerBee {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 2em;
   }
 }

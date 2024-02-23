@@ -4,7 +4,7 @@
     background-color: #ff8c00;
     color: white;
     text-align: center;
-    padding-top: 1em;
+
     border-bottom: 2px solid #ff8c00;
   }
 
@@ -26,7 +26,7 @@
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     align-items: center;
-    padding: 2em 3em;
+    padding: 1em 3em;
   }
 
   .RefBox {
