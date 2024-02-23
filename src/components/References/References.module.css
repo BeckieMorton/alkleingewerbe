@@ -1,6 +1,6 @@
 /* Media query for mobile */
 @media screen and (max-width: 666px) {
-  .about {
+  .References {
     background-color: #ff8c00;
     color: white;
     text-align: center;
@@ -8,41 +8,47 @@
     border-bottom: 2px solid #ff8c00;
   }
 
-  .about h1 {
+  .References h1 {
     font-weight: 600;
     font-size: 35px;
+    text-decoration: underline;
   }
 
-  .about p {
+  .References p {
     font-size: 18px;
   }
 
-  .aboutContainer {
+  .RefContainer {
     align-items: center;
   }
 
-  .aboutContainer {
+  .RefContainer {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     align-items: center;
     padding: 2em 3em;
   }
 
-  .about img {
-    max-width: 164px;
-    max-height: 164px;
-    border-radius: 50%;
+  .RefBox {
     text-align: center;
+    padding: 1em;
+    margin: 1em;
+    background-color: #ffae4c;
+    border-radius: 20px;
   }
 
-  .aboutText {
-    text-align: left;
+  .heading {
+    background-color: #ff8c00;
+  }
+
+  .quoteAuthor {
+    font-size: 14px;
   }
 }
 
 /* Media query for tablet */
 @media screen and (min-width: 667px) and (max-width: 1023px) {
-  .about {
+  .References {
     background-color: #ff8c00;
     color: white;
     max-width: 100%;
@@ -51,64 +57,83 @@
     border-bottom: 2px solid #ff8c00;
   }
 
-  .about h1 {
+  .References h1 {
     font-weight: 600;
+    text-decoration: underline;
   }
 
-  .aboutContainer {
+  .RefContainer {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     align-items: center;
     padding: 2em 6em;
   }
 
-  .about img {
-    max-width: 164px;
-    max-height: 164px;
-    border-radius: 50%;
+  .RefBox {
     text-align: center;
+    padding: 1em;
+    margin: 1em;
+    background-color: #ffae4c;
+    border-radius: 20px;
   }
 
-  .aboutText {
-    text-align: left;
+  .heading {
+    background-color: #ff8c00;
+  }
+
+  .quoteAuthor {
+    font-size: 14px;
   }
 }
 
 /* media query for desktop */
 @media screen and (min-width: 1024px) {
-  .about {
+  .References {
     background-color: #ff8c00;
     color: white;
     max-width: 100%;
     text-align: center;
-    padding-top: 0.5em;
+    padding-top: 1em;
     border-bottom: 2px solid #ff8c00;
   }
 
-  .about h1 {
+  .References h1 {
     font-weight: 600;
     padding-bottom: 1em;
+    text-decoration: underline;
   }
 
-  .about img {
+  .References img {
     max-width: 164px;
     max-height: 164px;
     border-radius: 50%;
     text-align: center;
   }
 
-  .aboutContainer {
+  .RefContainer {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     align-items: center;
-    padding: 2em 20em;
+    padding: 2em 6em;
   }
 
-  .aboutBox:first-child {
-    grid-column: span 2;
+  .RefBox {
+    text-align: center;
+    padding: 1em;
+    margin: 0 1em;
+    background-color: #ffae4c;
+    border-radius: 20px;
   }
 
-  .aboutText {
-    text-align: left;
+  .RefBox:first-child {
+    grid-column: span 3;
+  }
+
+  .heading {
+    background-color: #ff8c00;
+  }
+
+  .quoteAuthor {
+    font-size: 14px;
   }
 }

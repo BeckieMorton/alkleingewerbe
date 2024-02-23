@@ -5,6 +5,7 @@ import { Copyright } from "../components/Copyright/Copyright";
 
 import { About } from "../components/About/About";
 import { ServicesAv } from "../components/ServicesAv/ServicesAv";
+import { References } from "../components/References/References";
 
 export const Home = () => {
   return (
@@ -13,6 +14,7 @@ export const Home = () => {
       <LottieComponent />
       <About />
       <ServicesAv />
+      <References />
       <Footer />
       <Copyright />
     </div>

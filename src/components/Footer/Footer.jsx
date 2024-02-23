@@ -14,7 +14,7 @@ export const Footer = () => {
         <p>+49 4598 343</p>
       </div>
       <div className={styles.footerBox}>
-        <h2>Legal Stuff</h2>
+        <h2>Impressum</h2>
         <Link to="/LegalStuff">
           <p>Impressum</p>
         </Link>

@@ -1,7 +1,7 @@
 /* Media query for mobile */
 @media screen and (max-width: 666px) {
   .services {
-    background-color: #ff8c00;
+    background-color: #228b22;
     color: white;
     text-align: center;
     padding: 0.5em;
@@ -52,7 +52,7 @@
 /* Media query for tablet */
 @media screen and (min-width: 667px) and (max-width: 1023px) {
   .services {
-    background-color: #ff8c00;
+    background-color: #228b22;
     color: white;
     max-width: 100%;
     text-align: center;
@@ -101,7 +101,7 @@
 /* media query for desktop */
 @media screen and (min-width: 1024px) {
   .services {
-    background-color: #ff8c00;
+    background-color: #228b22;
     color: white;
     max-width: 100%;
     text-align: center;
