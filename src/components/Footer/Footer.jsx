@@ -15,8 +15,11 @@ export const Footer = () => {
       </div>
       <div className={styles.footerBox}>
         <h2>Impressum</h2>
-        <Link to="/LegalStuff">
+        <Link to="/LegalStuff" state={{ from: "Impressum" }}>
           <p>Impressum</p>
+        </Link>
+        <Link to="/LegalStuff" state={{ from: "DataProtection" }}>
+          <p>Datenschutzerklärung</p>
         </Link>
       </div>
     </div>
