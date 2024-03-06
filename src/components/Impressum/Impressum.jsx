@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { Link } from "react-router-dom";
 
 import styles from "./Impressum.module.css";
+import { Button } from "../Button/Button";
 
 export const Impressum = () => {
   useEffect(() => {
@@ -64,9 +65,7 @@ export const Impressum = () => {
       <h2>Quelle:</h2>
       <p>e-recht24.de</p>
       <p>&nbsp;</p>
-      <Link to="/">
-        <p className={styles.homeLink}>Zurück zur Startseite</p>
-      </Link>
+      <Button />
     </div>
   );
 };

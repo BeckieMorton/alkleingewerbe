@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { Link } from "react-router-dom";
 
 import styles from "./DataProtection.module.css";
+import { Button } from "../Button/Button";
 
 export const DataProtection = () => {
   useEffect(() => {
@@ -586,7 +587,7 @@ export const DataProtection = () => {
             Übermitteln oder das Löschen.{" "}
           </li>
         </ul>
-        <p class="seal">
+        <p class="seal" style={{ textAlign: "center" }}>
           <a
             href="https://datenschutz-generator.de/"
             title="Rechtstext von Dr. Schwenke - für weitere Informationen bitte anklicken."
@@ -597,9 +598,9 @@ export const DataProtection = () => {
             Schwenke
           </a>
         </p>
-        <Link to="/">
-          <p className={styles.homeLink}>Zurück zur Startseite</p>
-        </Link>
+        <div className={styles.button}>
+          <Button />
+        </div>
       </div>
     </>
   );

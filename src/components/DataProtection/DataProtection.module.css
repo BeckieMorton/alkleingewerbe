@@ -34,6 +34,10 @@
     text-align: left;
     padding: 2em 8em;
   }
+
+  .container a:hover {
+    color: white;
+  }
 }
 
 /* media query for desktop */
@@ -44,5 +48,23 @@
     max-width: 100%;
     text-align: left;
     padding: 2em 8em;
+  }
+
+  .container h1 {
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .container h2 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .container a:hover {
+    color: white;
+  }
+
+  .button a:hover {
+    color: #ff8c00;
   }
 }
