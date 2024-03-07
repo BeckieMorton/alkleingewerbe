@@ -75,7 +75,7 @@
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     align-items: center;
-    padding: 2em 3em;
+    padding: 2em 5em;
   }
 
   .profilephoto img {
@@ -136,7 +136,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
-    padding: 2em 20em;
+    padding: 2em 15em;
   }
 
   .aboutBox:first-child {
