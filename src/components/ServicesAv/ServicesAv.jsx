@@ -38,7 +38,7 @@ export const ServicesAv = () => {
               alt="postal services"
             />
           </p>
-          <p>Reinigung von Ferienwohnungen</p>
+          <p>Objekt- und Gebäudereinigung</p>
         </div>
         <div className={styles.servicesBox}>
           <p>
