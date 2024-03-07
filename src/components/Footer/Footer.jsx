@@ -14,7 +14,7 @@ export const Footer = () => {
         <p>01525 8497999</p>
       </div>
       <div className={styles.footerBox}>
-        <h2>Impressum</h2>
+        <h2>Rechtliches</h2>
         <Link to="/LegalStuff" state={{ from: "Impressum" }}>
           <p>Impressum</p>
         </Link>

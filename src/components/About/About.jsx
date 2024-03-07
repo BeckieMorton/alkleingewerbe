@@ -19,12 +19,20 @@ export const About = () => {
           <div className={styles.aboutText}>
             <p>
               Als Allround-Dienstleisterin mit Herz und Seele fliege ich auf
-              großartige Service-Momente! Durch meine Selbstständigkeit im
-              Kleingewerbe, habe ich die Möglichkeit die Dinge auf direktem Wege
-              anzupacken. Getreu dem Motto – die flinksten Bienchen machen den
-              besten Honig. Nach mehr als 10 Jahren im Kundenservice gibt es für
-              mich keine unlösbaren Aufgaben. Ich bin mir sicher, dass wir
-              gemeinsam die perfekte Lösung für Ihr Anliegen finden werden.
+              großartige Service-Momente!
+            </p>
+            <p>
+              Durch meine Selbstständigkeit im Kleingewerbe, habe ich die
+              Möglichkeit die Dinge auf direktem Wege anzupacken.
+            </p>
+            <p>
+              Getreu dem Motto – die flinksten Bienchen machen den besten Honig.
+              Nach mehr als 10 Jahren im Kundenservice gibt es für mich keine
+              unlösbaren Aufgaben.
+            </p>
+            <p>
+              Ich bin mir sicher, dass wir gemeinsam die perfekte Lösung für Ihr
+              Anliegen finden werden.
             </p>
 
             <div className={styles.centerBee}>

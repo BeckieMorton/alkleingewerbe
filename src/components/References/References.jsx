@@ -13,11 +13,11 @@ export const References = () => {
             "zuverlässig, pünktlich und freundlich, ich würde die Dienste von
             Aline wieder in Anspruch nehmen"
           </p>
-          <p className={styles.quoteAuthor}>Hanz, Gorbitz</p>
+          <p className={styles.quoteAuthor}>Hans, Gorbitz</p>
         </div>
         <div className={styles.RefBox}>
           <p>"hat mir beim Einkaufen geholfen, tolle Hilfe, danke!"</p>
-          <p className={styles.quoteAuthor}>Urika, Friedrichstadt</p>
+          <p className={styles.quoteAuthor}>Erika, Friedrichstadt</p>
         </div>
         <div className={styles.RefBox}>
           <p>
