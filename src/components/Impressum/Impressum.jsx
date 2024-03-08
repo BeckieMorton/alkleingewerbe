@@ -13,57 +13,68 @@ export const Impressum = () => {
     <div className={styles.container}>
       <h1>Impressum der Website der A.Ludewig Dienstleistungen von A-Z</h1>
       <h2>Angaben gemäß § 5 TMG:</h2>
-      <p>Aline Ludewig</p>
       <p>A. Ludewig Dienstleistungen von A-Z</p>
       <p>Reuningstr. 5 , 01169 Dresden</p>
+      <p>Vertreten durch:</p>
+      <p>Aline Ludewig</p>
       <h2>Kontakt:</h2>
-      <p>Telefon: 01525 8497999</p>
-      <p> E-Mail: aline-ludewig@gmx.de </p>
+      <p> E-Mail: aline-ludewig@gmx.de</p>
+      <p>Telefon: +49 1525 8497999</p>
       <h2>Steuernummer:</h2>
       <p>203/246/12743</p>
-      <h2>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV: </h2>
+      <h2>EU-Streitbeilegung</h2>
       <p>
-        A. Ludewig Dienstleistungen von A-Z, Aline Ludewig, Reuningstr. 5, 01169
-        Dresden
+        Durch die Europäische Kommission wird eine Plattform zur
+        Online-Streitbeilegung (OS) bereitgestellt:
+        <a
+          href="https://ec.europa.eu/consumers/odr/"
+          alt=" https://ec.europa.eu/consumers/odr/"
+        >
+          https://ec.europa.eu/consumers/odr/
+        </a>
       </p>
-      <h2>Streitschlichtung</h2>
+      <h2>Haftungsausschluss</h2>
       <p>
-        Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren
-        vor einer Verbraucherschlichtungsstelle teilzunehmen.
+        Wir sind für die Inhalte unserer Internetseiten nach den Maßgaben der
+        allgemeinen Gesetzen, insbesondere nach § 7 Abs. 1 des
+        Telemediengesetzes, verantwortlich. Alle Inhalte werden mit der
+        gebotenen Sorgfalt und nach bestem Wissen erstellt. Soweit wir auf
+        unseren Internetseiten mittels Hyperlink auf Internetseiten Dritter
+        verweisen, können wir keine Gewähr für die fortwährende Aktualität,
+        Richtigkeit und Vollständigkeit der verlinkten Inhalte übernehmen, da
+        diese Inhalte außerhalb unseres Verantwortungsbereichs liegen und wir
+        auf die zukünftige Gestaltung keinen Einfluss haben. Sollten aus Ihrer
+        Sicht Inhalte gegen geltendes Recht verstoßen oder unangemessen sein,
+        teilen Sie uns dies bitte mit.
       </p>
-      <h2>Haftung für Inhalte</h2>
       <p>
-        Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf
-        diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8
-        bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet,
-        übermittelte oder gespeicherte fremde Informationen zu überwachen oder
-        nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit
-        hinweisen. Verpflichtungen zur Entfernung oder Sperrung der Nutzung von
-        Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt.
-        Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der
-        Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden von
-        entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend
-        entfernen.
+        Die rechtlichen Hinweise auf dieser Seite sowie alle Fragen und
+        Streitigkeiten im Zusammenhang mit der Gestaltung dieser Internetseite
+        unterliegen dem Recht der Bundesrepublik Deutschland.
       </p>
-      <h2>Urheberrecht</h2>
+      <h2>Urheberrechtshinweis</h2>
       <p>
-        Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen
-        Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung,
-        Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der
-        Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des
-        jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite
-        sind nur für den privaten, nicht kommerziellen Gebrauch gestattet.
-        Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden,
-        werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte
-        Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine
-        Urheberrechtsverletzung aufmerksam werden, bitten wir um einen
-        entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden
-        wir derartige Inhalte umgehend entfernen.
+        Die auf unserer Internetseite vorhandenen Texte, Bilder, Fotos, Videos
+        oder Grafiken unterliegen in der Regel dem Schutz des Urheberrechts.
+        Jede unberechtigte Verwendung (insbesondere die Vervielfältigung,
+        Bearbeitung oder Verbreitung) dieser urheberrechtsgeschützten Inhalte
+        ist daher untersagt. Wenn Sie beabsichtigen, diese Inhalte oder Teile
+        davon zu verwenden, kontaktieren Sie uns bitte im Voraus unter den oben
+        stehenden Angaben. Soweit wir nicht selbst Inhaber der benötigten
+        urheberrechtlichen Nutzungsrechte sein sollten, bemühen wir uns, einen
+        Kontakt zum Berechtigten zu vermitteln.
       </p>
       <h2>Quellenangaben für verwendete Bilder und Grafiken</h2>
-      <p>Pexels, 8icons </p>
+      <p>Pexels, 8icons, Lottie animations </p>
       <h2>Quelle:</h2>
-      <p>e-recht24.de</p>
+      <p>
+        <a
+          href="https://app.dieter-datenschutz.de"
+          alt="https://app.dieter-datenschutz.de"
+        >
+          https://app.dieter-datenschutz.de
+        </a>
+      </p>
       <p>&nbsp;</p>
       <Button />
     </div>
