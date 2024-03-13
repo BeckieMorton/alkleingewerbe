@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import styles from "./Footer.module.css";
 
 export const Footer = () => {
+  //should probably be using useNavigate here instead of Link
   return (
     <div className={styles.footerContainer}>
       <div className={styles.footerBox}>
