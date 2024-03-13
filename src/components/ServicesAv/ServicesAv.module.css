@@ -11,12 +11,12 @@
   .servicesContainer h1 {
     font-weight: 600;
     padding-bottom: 1em;
-    font-size: 35px;
+    font-size: 30px;
     text-decoration: underline;
   }
 
   .servicesContainer p {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .services img {
