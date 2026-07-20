@@ -14,7 +14,8 @@ export const Impressum = () => {
       <h1>Impressum der Website der A.Ludewig Dienstleistungen von A-Z</h1>
       <h2>Angaben gemäß § 5 TMG:</h2>
       <p>A. Ludewig Dienstleistungen von A-Z</p>
-      <p>Reuningstr. 5 , 01169 Dresden</p>
+      <p>Talblick 17, 01723 Kesselsdorf</p> //updated this to a new address on
+      21 July 2026
       <p>Vertreten durch:</p>
       <p>Aline Ludewig</p>
       <h2>Kontakt:</h2>
