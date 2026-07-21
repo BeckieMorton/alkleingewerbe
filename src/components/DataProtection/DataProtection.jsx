@@ -97,8 +97,8 @@ export const DataProtection = () => {
         </ul>
         <h2 id="m3">Verantwortlicher</h2>
         <p>
-          A.Ludewig Dienstleistungen von A-Z Aline Ludewig Reuningstr. 5 01169
-          Dresden
+          A.Ludewig Dienstleistungen von A-Z Aline Ludewig Talblick 17 01723
+          Kesselsdorf
         </p>
         E-Mail-Adresse:{" "}
         <a href="mailto:aline-ludewig@gmx.de">aline-ludewig@gmx.de</a>
